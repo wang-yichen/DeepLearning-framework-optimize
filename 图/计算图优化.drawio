@@ -1,0 +1,40 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="CILaw7AEJWidAJ_7hHdu">
+    <mxGraphModel dx="1276" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AbMLfIywimyNbq0DTxOj-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;计算图优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="235" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-2" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="190" y="200" width="20" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;通用硬件优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;特定硬件优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="285" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="200" as="sourcePoint" />
+            <mxPoint x="360" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-6" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;核心是子图的等价变换：在计算图中尝试匹配特定的子图结构，找到目标子图结构后，通过等价替换方式，将其替换成对硬件更友好的子图结构。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="170" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-7" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;指该计算图的优化是在特定硬件上才能做的优化，常见的基于硬件的优化包括由于硬件指令的限制而做的优化，特定硬件存储格式导致的优化等。&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;1.硬件指令限制；2.数据排布格式限制&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="360" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AbMLfIywimyNbq0DTxOj-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="AbMLfIywimyNbq0DTxOj-4" target="AbMLfIywimyNbq0DTxOj-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="210" as="sourcePoint" />
+            <mxPoint x="370" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

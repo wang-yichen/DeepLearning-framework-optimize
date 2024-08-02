@@ -1,0 +1,145 @@
+<mxfile host="Electron" modified="2024-07-29T08:41:15.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="zxl64rLj-kTA92FFTHzP" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="J9T8GNUwxKqM79LirnFY">
+    <mxGraphModel dx="1863" dy="1775" grid="1" gridSize="10" guides="1" tooltips="1" connect="0" arrows="0" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-16" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="90" y="-80" width="20" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="730" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-18" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="820" as="sourcePoint" />
+            <mxPoint x="524" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-19" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="820" as="sourcePoint" />
+            <mxPoint x="410" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-20" value="模型生成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="770" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-21" value="模型转换为中间文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="770" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-22" value="框架加载模型阶段" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="483.5" y="770" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-23" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="E4cTezsCCMQEkpvD_ubh-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="790" as="sourcePoint" />
+            <mxPoint x="390" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="800" as="sourcePoint" />
+            <mxPoint x="370" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-25" value="框架优化流程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="730" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-26" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.189;entryY=-0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-20" target="E4cTezsCCMQEkpvD_ubh-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="900" as="sourcePoint" />
+            <mxPoint x="300" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-27" value="模型生成阶段，包含模型的设计、训练和验证，选择合适的框架，并根据该框架的特点设计网络结构，可使用参数剪枝、模型量化、紧凑网络、低秩分解、参数共享等方法，在算法层面减少模型的存储和计算需求，提高模型效果并加快后续推理速度。&lt;b&gt;该阶段主要是设计算法，提高模型的整体性能。&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="850" width="370" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-28" value="模型转换为中间表示IR时，会进行如下优化：&lt;br&gt;1.层融合，合并一起执行的连续层，减少计算负载；&lt;br&gt;2.图优化，去除训练时需要但推理时不需要的操作和步骤；&lt;br&gt;3.调整数据格式和布局，提高数据加载效率并降低内存利用。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="960" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-29" value="框架加载模型阶段，会进行如下优化：&lt;br&gt;1.针对特定硬件进行优化，如并行处理以及特定指令集优化模型；&lt;br&gt;2.将模型某些部分编译为硬件特定的代码；&lt;br&gt;3.提供优化过的内存分配策略，减少内存碎片，降低对内存的需求。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1060" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="820" as="sourcePoint" />
+            <mxPoint x="640" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-31" value="部分模型如Pytorch下的pt权重，不存在模型转换为中间文件IR的阶段；&lt;br&gt;部分模型如PaddlePaddle支持整个模型的生命周期，包括训练和推理；&lt;br&gt;其他大部分模型主要用于优化和加速模型推理" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="640" y="930" width="210" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-32" value="中间表示IR设计需求" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="80" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-33" value="张量表达" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-100" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-34" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="-60" as="sourcePoint" />
+            <mxPoint x="230" y="-80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-36" value="正确处理张量数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-37" value="自动微分" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-38" value="自动微分是指对网络模型的自动求导，通过梯度指导对网络权重的优化。主流机器学习框架都提供了自动微分的功能，在设计中间表示时需要考虑自动微分实现的简洁性、性能以及高阶微分的扩展能力。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-39" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-37" target="E4cTezsCCMQEkpvD_ubh-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="-70" as="sourcePoint" />
+            <mxPoint x="240" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-40" value="计算图模式" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="40" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-41" value="主流机器学习框架如TensorFlow、PyTorch、MindSpore等都提供了静态图和动态图两种计算图模式，静态计算图模式先创建定义计算图，再显式执行，有利于对计算图进行优化，高效但不灵活。动态计算图模式则是每使用一个算子后，该算子会在计算图中立即执行得到结果，使用灵活、便于调试，但运行速度较低。机器学习框架的中间表示设计同时支持静态图和动态图，可以针对待解决的任务需求，选择合适的模式构建算法模型。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="30" width="710" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-40" target="E4cTezsCCMQEkpvD_ubh-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" as="sourcePoint" />
+            <mxPoint x="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-43" value="支持高阶函数和闭包&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; text-align: start; background-color: rgb(250, 250, 250);&quot; id=&quot;id9&quot; class=&quot;bibtex&quot;&gt;[2010C]&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="110" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-44" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-43" target="E4cTezsCCMQEkpvD_ubh-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="70" as="sourcePoint" />
+            <mxPoint x="240" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-45" value="高阶函数和闭包是函数式编程的重要特性，高阶函数是指使用其它函数作为参数、或者返回一个函数作为结果的函数，闭包是指代码块和作用域环境的结合，可以在另一个作用域中调用一个函数的内部函数，并访问到该函数作用域中的成员。支持高阶函数和闭包，可以抽象通用问题、减少重复代码、提升框架表达的灵活性和简洁性。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="100" width="510" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-46" value="编译优化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="180" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-47" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="E4cTezsCCMQEkpvD_ubh-46" target="E4cTezsCCMQEkpvD_ubh-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="70" as="sourcePoint" />
+            <mxPoint x="240" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-48" value="机器学习框架的编译优化主要包括硬件无关的优化、硬件相关的优化、部署推理相关的优化等，这些优化都依赖于中间表示的实现" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="170" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-49" value="JIT(Just In Time)能力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="250" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="E4cTezsCCMQEkpvD_ubh-50" value="机器学习框架进行编译执行加速时，经常用到JIT即时编译。JIT编译优化将会对中间表示中的数据流图的可优化部分实施优化，包括循环展开、融合、内联等。中间表示设计是否合理，将会影响机器学习框架的JIT编译性能和程序的运行能力。" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="370" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

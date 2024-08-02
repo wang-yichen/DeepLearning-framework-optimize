@@ -1,0 +1,166 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="tp657_Ba1racLbOtVIkM">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模型部署优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-2" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;多算子融合，充分利用寄存器缓存，同时减少前向推理时的冗余计算&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前端算子优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="180" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="160" y="200" width="20" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-15" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="290" y="135" width="20" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;算子融合&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-17" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;算子替换&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="190" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;算子重排&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="255" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模型压缩&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="415" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-21" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="290" y="360" width="20" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模型量化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="340" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-23" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模型稀疏&lt;/font&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start; text-wrap: nowrap;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bfont%20style%3D%26quot%3Bfont-size%3A%2018px%3B%26quot%3B%26gt%3B%E6%A8%A1%E5%9E%8B%E9%87%8F%E5%8C%96%26lt%3B%2Ffont%26gt%3B%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22280%22%20y%3D%22300%22%20width%3D%2280%22%20height%3D%2230%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="415" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-24" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;知识蒸馏&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-25" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;模型推理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="615" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-26" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;size=0.5;" parent="1" vertex="1">
+          <mxGeometry x="290" y="590" width="20" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-27" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;前处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="580" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-28" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;后端算子优化&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="830" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-29" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;并行计算&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="743.5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-5" target="FMcQ-yZuk6v02xoVI1cC-19" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="110" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-33" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-19" target="FMcQ-yZuk6v02xoVI1cC-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="245" y="280" as="sourcePoint" />
+            <mxPoint x="245" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-34" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;将模型中某些算子替换计算逻辑一致但对于在线部署更友好的算子&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="180" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-35" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;将模型中算子的拓扑序按照某些规则进行重新排布，在不降低模型的推理精度的前提下，降低模型推理的计算量&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="237.5" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-36" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-16" target="FMcQ-yZuk6v02xoVI1cC-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="110" as="sourcePoint" />
+            <mxPoint x="460" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-37" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-18" target="FMcQ-yZuk6v02xoVI1cC-35" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="145" as="sourcePoint" />
+            <mxPoint x="440" y="145" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-38" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-17" target="FMcQ-yZuk6v02xoVI1cC-34" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="155" as="sourcePoint" />
+            <mxPoint x="450" y="155" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-39" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;通过去除神经网络中部分组件（如权重、特征图、卷积核）降低网络的存储和计算代价&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="397.5" width="290" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-40" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;模型训练阶段实现&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="490" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-41" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-23" target="FMcQ-yZuk6v02xoVI1cC-39" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="280" as="sourcePoint" />
+            <mxPoint x="440" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-24" target="FMcQ-yZuk6v02xoVI1cC-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="440" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;后处理&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="310" y="685" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-45" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;将原始数据例如图片、语音、文本等，处理成适合网络输入的tensor数据，并消除其中无关的信息，恢复有用的真实信息，增强有关信息的可检测性，最大限度地简化数据&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;特征编码、数据归一化、处理离群值&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="430" y="531.5" width="290" height="127" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-46" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-27" target="FMcQ-yZuk6v02xoVI1cC-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="515" as="sourcePoint" />
+            <mxPoint x="440" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-47" value="&lt;font face=&quot;Roboto, Noto Sans SC Sliced, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(250, 250, 250);&quot;&gt;连续数据离散化、数据可视化、手动拉宽预测范围&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="430" y="676.5" width="290" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-48" value="&lt;font face=&quot;Roboto, Noto Sans SC Sliced, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(250, 250, 250);&quot;&gt;引入多线程机制，提升推理性能&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="430" y="741" width="290" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-49" value="&lt;font face=&quot;Roboto, Noto Sans SC Sliced, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(250, 250, 250);&quot;&gt;硬件指令优化：汇编语言优化、寄存器优化&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Roboto, Noto Sans SC Sliced, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px; background-color: rgb(250, 250, 250);&quot;&gt;算法优化：&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: rgb(250, 250, 250); color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start;&quot;&gt;卷积算子算法优化，可以应用到各种硬件设备上&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="450" y="797.5" width="270" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-50" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-29" target="FMcQ-yZuk6v02xoVI1cC-48" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="605" as="sourcePoint" />
+            <mxPoint x="440" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-51" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-44" target="FMcQ-yZuk6v02xoVI1cC-47" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="615" as="sourcePoint" />
+            <mxPoint x="450" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FMcQ-yZuk6v02xoVI1cC-52" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="FMcQ-yZuk6v02xoVI1cC-28" target="FMcQ-yZuk6v02xoVI1cC-49" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="769" as="sourcePoint" />
+            <mxPoint x="440" y="769" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5EjJmrWiRx5s-19B0x8h-1" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;多阶段实现&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5EjJmrWiRx5s-19B0x8h-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="5EjJmrWiRx5s-19B0x8h-1" source="FMcQ-yZuk6v02xoVI1cC-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="352.5" as="sourcePoint" />
+            <mxPoint x="440" y="227.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

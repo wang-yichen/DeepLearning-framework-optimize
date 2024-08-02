@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="第 1 页" id="j1lACvt4oV9KxdHfC2Sp">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="trQZeUbiGWFtfIxw4iwg-1" value="编译器优化方式" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="100" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="220" y="200" width="20" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-2" value="前端优化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="180" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="200" as="sourcePoint" />
+            <mxPoint x="350" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-5" value="与硬件无关的编译优化，解决编译生成的中间表示的低效性，降低代码长度，缩短编译和运行的时间，降低执行期间处理器的能耗" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="354" y="170" width="306" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-6" value="后端优化" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="365" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="310" y="280" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-8" value="计算图优化：&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;在不影响模型的数值特性的基础上，通过图变换达到简化计算、减少资源开销、适配硬件的执行能力、提升执行性能&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="330" y="240" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-9" value="算子选择：&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;将IR图上的每个计算节点映射到设备上可执行算子的过程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="330" y="320" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="eC7oOnFgl5_Tvh6rN1hq-10" value="内存分配：&lt;span style=&quot;color: rgba(0, 0, 0, 0.87); font-family: Roboto, &amp;quot;Noto Sans SC Sliced&amp;quot;, sans-serif; font-size: 16px; text-align: start; background-color: rgb(250, 250, 250);&quot;&gt;计算输入输出数据的大小，并为输入输出分配设备上的内存并将算子加载到设备上，同时利用内存复用提高内存利用率&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="330" y="380" width="330" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nIwWB0_rXP-VEvkEYVno-1" value="后端编译优化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="330" y="470" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

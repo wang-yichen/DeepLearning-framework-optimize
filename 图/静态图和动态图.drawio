@@ -1,0 +1,40 @@
+<mxfile host="Electron" modified="2024-07-29T08:58:24.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="icoz6wZ6pqcaIPi8QV04" version="21.2.1" type="device">
+  <diagram name="第 1 页" id="Esp3hDGhFjqNxBSr7eub">
+    <mxGraphModel dx="1036" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-1" value="静态图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-2" value="模型的计算图是在运行前完全定义并优化的。先定义好整个计算流程，包括所有的操作和变量，然后编译这个图以进行执行。这个过程中，计算图在开始执行前是已知且不变的。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="200" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-3" value="&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;性能优化&lt;/strong&gt;：由于计算图是静态的，框架可以进行更多的优化，如操作合并、内存重用、提前分配等。&lt;strong style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;部署简便&lt;/strong&gt;：静态图通常可以更容易地被转换成不同平台上的执行代码，便于在不同设备上进行部署。&lt;strong style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;更好的跨语言支持&lt;/strong&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;：由于计算图的结构是固定的，它更容易被转换成不同编程语言的实现。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="280" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="210" y="230" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-5" value="动态图" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="505" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-6" value="动态图则是在运行时定义的，这意味着计算图的结构是边执行边构建的。每次运行代码时，图都会重新构建。这种方式提供了更高的灵活性，允许开发者在每个迭代中动态改变计算图。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="430" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-7" value="&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;高灵活性&lt;/strong&gt;：可以根据输入数据的不同动态改变图的结构，非常适合处理不定形状和大小的输入数据。&lt;strong style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;易于调试&lt;/strong&gt;：动态图的执行方式与普通 Python 代码无异，可以使用常规的调试工具进行调试，易于追踪每一步的计算值。&lt;strong style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;直观易懂&lt;/strong&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;：动态图的编程模式通常更贴近传统的编程方式，更加易学。&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="510" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-8" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="210" y="460" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-9" value="&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;灵活性较差&lt;/strong&gt;：静态图的结构在编译后就固定了，难以进行修改，这在需要动态改变执行逻辑的应用场景中（如可变长度的输入数据）可能不是很方便。&lt;strong style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;调试困难&lt;/strong&gt;：由于计算图在运行前就已经被定下来了，调试时可能难以理解和追踪问题的具体位置。" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="230" y="360" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TFy0LGWY01Z1vN0gK8PG-10" value="&lt;strong style=&quot;border-color: var(--border-color);&quot;&gt;性能较低&lt;/strong&gt;：每次执行都需要重新构建计算图，这可能会带来一定的性能开销。&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;strong style=&quot;background-color: initial; border-color: var(--border-color);&quot;&gt;优化空间有限&lt;/strong&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;：由于图的动态性，框架难以进行深入的性能优化。&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="590" width="430" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
