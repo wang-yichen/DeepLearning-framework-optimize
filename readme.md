@@ -21,7 +21,7 @@ https://tvm.hyper.ai/docs/tutorial/intro（TVM）
 
 https://zhuanlan.zhihu.com/p/344442534（openvino）
 
-https://onnxruntime.ai/docs/execution-providers/（ONNX Runtime）
+https://onnxruntime.ai/docs/execution-providers/  （ONNX Runtime）
 
 https://blog.csdn.net/hh1357102/article/details/131831741（NCNN）
 
