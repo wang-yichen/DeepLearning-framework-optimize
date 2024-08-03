@@ -5,27 +5,27 @@
 
 ## 参考资料
 
-https://blog.csdn.net/sgyuanshi/article/details/123536579（tensorrt）
+https://blog.csdn.net/sgyuanshi/article/details/123536579 （tensorrt）
 
-https://github.com/ihomeava/PaddleSeg2/blob/release/2.3/docs/slim/quant/quant.md（模型量化）
+https://github.com/ihomeava/PaddleSeg2/blob/release/2.3/docs/slim/quant/quant.md （模型量化）
 
-https://developer.aliyun.com/article/1161611（Tensorrt导出engine模型进行推理）
+https://developer.aliyun.com/article/1161611 （Tensorrt导出engine模型进行推理）
 
-https://www.jos.org.cn/html/2021/1/6096.htm#outline_anchor_36（模型优化与压缩，综述）
+https://www.jos.org.cn/html/2021/1/6096.htm#outline_anchor_36 （模型优化与压缩，综述）
 
-https://www.cnblogs.com/shixiangwan/p/9015010.html（模型优化与压缩，综述）
+https://www.cnblogs.com/shixiangwan/p/9015010.html （模型优化与压缩，综述）
 
-https://github.com/cedrickchee/awesome-ml-model-compression（模型优化与压缩，论文整理）
+https://github.com/cedrickchee/awesome-ml-model-compression （模型优化与压缩，论文整理）
 
-https://tvm.hyper.ai/docs/tutorial/intro（TVM）
+https://tvm.hyper.ai/docs/tutorial/intro （TVM）
 
-https://zhuanlan.zhihu.com/p/344442534（openvino）
+https://zhuanlan.zhihu.com/p/344442534 （openvino）
 
-https://onnxruntime.ai/docs/execution-providers/  （ONNX Runtime）
+https://onnxruntime.ai/docs/execution-providers/ （ONNX Runtime）
 
-https://blog.csdn.net/hh1357102/article/details/131831741（NCNN）
+https://blog.csdn.net/hh1357102/article/details/131831741 （NCNN）
 
-https://github.com/alibaba/MNN（MNN）
+https://github.com/alibaba/MNN （MNN）
 
 ## 1.Tensorrt转中间格式对模型的优化
 
@@ -241,9 +241,9 @@ https://github.com/alibaba/MNN（MNN）
 
 ## 参考资料：
 
-https://www.cnblogs.com/RSran/p/17721841.html（模型与框架）
+https://www.cnblogs.com/RSran/p/17721841.html （模型与框架）
 
-https://openmlsys.github.io/chapter_frontend_and_ir/intermediate_representation.html（中间表示）
+https://openmlsys.github.io/chapter_frontend_and_ir/intermediate_representation.html （中间表示）
 
 ## 4.模型与框架
 
